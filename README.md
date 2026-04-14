@@ -125,11 +125,12 @@ where Z ~ N(0,1) with ≥ 10,000 simulation paths.
 
 ---
 
+
 ## 👤 Author
 
-**Somashekar M**
-- GitHub: [@SomashekarM2002](https://github.com/SomashekarM2002)
-- Email: somashekarmsoma1@gmail.com
+**Sathwik**
+- GitHub: [@Sathu0701](https://github.com/Sathu0701)
+- Email: srsathwik07@gmail.com
 
 ---
 
