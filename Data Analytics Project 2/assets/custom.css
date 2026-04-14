@@ -1,0 +1,79 @@
+/* AlphaPulse Custom Animations & Overrides */
+@keyframes pulse {
+    0%   { opacity: 1; transform: scale(1); }
+    50%  { opacity: 0.5; transform: scale(1.4); }
+    100% { opacity: 1; transform: scale(1); }
+}
+
+/* Dropdown dark theme overrides */
+.Select-control {
+    background-color: #0c1729 !important;
+    border-color: #1c3054 !important;
+    color: #e8f1ff !important;
+}
+.Select-menu-outer {
+    background-color: #0c1729 !important;
+    border-color: #1c3054 !important;
+}
+.Select-option {
+    background-color: #0c1729 !important;
+    color: #e8f1ff !important;
+}
+.Select-option:hover, .Select-option.is-focused {
+    background-color: #1c3054 !important;
+}
+.Select-value-label {
+    color: #e8f1ff !important;
+}
+.Select-placeholder {
+    color: #6b85a8 !important;
+}
+.Select-input > input {
+    color: #e8f1ff !important;
+}
+.Select-arrow-zone .Select-arrow {
+    border-top-color: #6b85a8 !important;
+}
+
+/* Dropdown multi-value tags */
+.Select--multi .Select-value {
+    background-color: #1c3054 !important;
+    border-color: #3d9cf0 !important;
+    color: #e8f1ff !important;
+}
+.Select--multi .Select-value-icon {
+    border-color: #3d9cf0 !important;
+    color: #e8f1ff !important;
+}
+.Select--multi .Select-value-icon:hover {
+    background-color: #ff4d6d !important;
+}
+
+/* Slider dark theme */
+.rc-slider-rail {
+    background-color: #1c3054 !important;
+}
+.rc-slider-track {
+    background-color: #f0b429 !important;
+}
+.rc-slider-handle {
+    border-color: #f0b429 !important;
+    background: #f0b429 !important;
+}
+.rc-slider-mark-text {
+    color: #6b85a8 !important;
+    font-size: 11px !important;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #040d1a; }
+::-webkit-scrollbar-thumb { background: #1c3054; border-radius: 3px; }
+
+/* Button hover effect */
+#run-btn:hover {
+    background-color: #ffcc55 !important;
+    box-shadow: 0 0 20px rgba(240,180,41,0.4);
+    transform: translateY(-1px);
+    transition: all 0.2s ease;
+}
